@@ -1,0 +1,25 @@
+#maze {
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+    border: 1px solid black;
+    display: flex;
+  }
+
+ 
+  .cell {
+   
+    width: 15px;
+    background-color: #fff;
+    /* border: 1px solid #000; */
+    padding: 5px;
+  }
+  
+  .end {
+    background-color: #f00;
+    color: #fff;
+  }
+  
+  .wall {
+    background-color: #ccc;
+  }
